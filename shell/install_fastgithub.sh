@@ -11,7 +11,7 @@ cat << EOF | tee ~/.local/shell/start_fastgithub.sh
 #! /bin/bash
 
 app=/opt/apps/fastgithub_linux-x64/fastgithub
-log=idea.log
+log=fastgithub.log
 log_home="\${LOCAL_HOME}/log"
 
 nohup \${app} > \${log_home}/\${log} 2>&1 &
