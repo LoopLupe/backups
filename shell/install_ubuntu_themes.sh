@@ -8,7 +8,10 @@ sudo apt install arc-theme
 sudo apt install materia-gtk-theme
 
 mkdir -p ../apps/themes
+# https://github.com/vinceliuice/Orchis-theme
 git clone https://github.com/vinceliuice/Orchis-theme.git ../apps/themes/Orchis-theme
+# https://github.com/vinceliuice/Matcha-gtk-theme
+git clone https://github.com/vinceliuice/Matcha-gtk-theme.git ../apps/themes/Matcha-gtk-theme
 # https://github.com/vinceliuice/Qogir-theme
 git clone https://github.com/vinceliuice/Qogir-theme.git ../apps/themes/Qogir-theme
 # https://github.com/vinceliuice/Qogir-icon-theme
@@ -18,6 +21,7 @@ git clone https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git ../ap
 
 ../apps/themes/Orchis-theme/install.sh
 ../apps/themes/Orchis-theme/src/gnome-shell/extensions/dash-to-panel/install.sh
+../apps/themes/Matcha-gtk-theme/install.sh
 ../apps/themes/Qogir-theme/install.sh
 ../apps/themes/Qogir-icon-theme/install.sh
 ../apps/themes/papirus-icon-theme/install.sh
