@@ -10,7 +10,8 @@ autoconf libxcb-xrm0 libxcb-xrm-dev automake libxcb-shape0-dev
 
 sudo apt install meson -y
 
-cd ~/Documents/apps/github
+mkdir -p ../apps/github
+cd ../apps/github
 
 # clone the repository
 git clone https://www.github.com/Airblader/i3 i3-gaps
